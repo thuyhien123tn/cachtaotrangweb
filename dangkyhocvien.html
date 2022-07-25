@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table>
+            <th>Đăng ký học viên</th>
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text" name="name" value=""></input></td>
+            </tr>
+
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="date" name="date" value=""></input></td>
+            </tr>
+            
+            <tr>
+                <th>
+                    <input type="radio" name="gioitinh" value="Nam" checked> Nam
+                    <input type="radio" name="gioitinh" value="Nữ"> Nữ
+                </th>
+            </tr>
+
+            <tr>
+                <td>Địa chỉ:</td>
+                <td><input type="text" name="add" value=""></td>
+            </tr>
+
+            <tr>
+                <td>Lớp</td>
+                <td><select name="lop">
+                    <option value="1">8h-10h</option>
+                    <option value="1">14h-16h</option>
+                    <option value="1">19h-21h</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" value=""></td>
+            </tr>
+            <tr>
+                <td>Điện thoại:</td>
+                <td><input type="text" name="phone" value=""></td>
+            </tr>
+        </table>
+        <input type="submit" name="submit" value="Đăng Ký" >
+        <input type="reset" name="res" value="nhập lại">
+    </form>
+    
+</body>
+</html>
